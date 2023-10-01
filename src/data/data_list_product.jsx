@@ -21,6 +21,7 @@ const list_product = [
         price: 30,
         currency: "$",
         image: "../images/2.png",
+        isActive: true,
         sizes: {
             S : "S",
             M : "M",
@@ -36,6 +37,7 @@ const list_product = [
         price: 30,
         currency: "$",
         image: "../images/3.png",
+        isActive: false,
         sizes: {
             S : "S",
             M : "M",
@@ -51,6 +53,7 @@ const list_product = [
         price: 30,
         currency: "$",
         image: "../images/4.png",
+        isActive: false,
         sizes: {
             S : "S",
             M : "M",
@@ -66,6 +69,7 @@ const list_product = [
         price: 30,
         currency: "$",
         image: "../images/5.png",
+        isActive: true,
         sizes: {
             S : "S",
             M : "M",
@@ -81,6 +85,7 @@ const list_product = [
         price: 30,
         currency: "$",
         image: "../images/1.png",
+        isActive: false,
         sizes: {
             S : "S",
             M : "M",
@@ -90,3 +95,5 @@ const list_product = [
         
     }
 ]
+
+export default list_product;
