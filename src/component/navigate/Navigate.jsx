@@ -1,11 +1,19 @@
 import styled from "./Navigate.module.css";
 import React from "react";
+import { BsMenuButtonWideFill   } from "react-icons/bs";
+
 
 
 function Navigate (){
     return(
-        <div>
-            navigate
+        
+        <div className="container">
+            <header>
+                <div className="menu">
+                <BsMenuButtonWideFill />
+ 
+                </div>
+            </header>
         </div>
     );
 }
