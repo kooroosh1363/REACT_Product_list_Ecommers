@@ -1,0 +1,38 @@
+.head{
+    border-bottom: 2px solid hsla(127, 4%, 35%, 0.87);
+
+}
+
+
+header{
+    display: flex;
+    padding: 10px 50px ;
+    justify-content: space-between;
+    color: hsla(127, 4%, 27%, 1);
+    font-size: 18px !important;
+    align-items: center;
+}
+
+.menu{
+    font-size: 30px !important;
+}
+.cart{
+    font-size: 30px !important;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    border-radius: 70px;
+    border: 3px solid rgb(14, 117, 228);}
+
+.logo img{
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    object-fit: cover;
+
+}
+

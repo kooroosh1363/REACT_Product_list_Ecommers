@@ -5,7 +5,7 @@ const list_product = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         price: 30,
         currency: "$",
-        image: "../images/1.png",
+        image: "./images/1.png",
         sizes: {
             S : "S",
             M : "M",
@@ -20,7 +20,7 @@ const list_product = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         price: 30,
         currency: "$",
-        image: "../images/2.png",
+        image: "./images/2.png",
         isActive: true,
         sizes: {
             S : "S",
@@ -36,7 +36,7 @@ const list_product = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         price: 30,
         currency: "$",
-        image: "../images/3.png",
+        image: "./images/3.png",
         isActive: false,
         sizes: {
             S : "S",
@@ -52,7 +52,7 @@ const list_product = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         price: 30,
         currency: "$",
-        image: "../images/4.png",
+        image: "./images/4.png",
         isActive: false,
         sizes: {
             S : "S",
@@ -68,7 +68,7 @@ const list_product = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         price: 30,
         currency: "$",
-        image: "../images/5.png",
+        image: "./images/5.png",
         isActive: true,
         sizes: {
             S : "S",
@@ -84,7 +84,7 @@ const list_product = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         price: 30,
         currency: "$",
-        image: "../images/1.png",
+        image: "./images/6.png",
         isActive: false,
         sizes: {
             S : "S",

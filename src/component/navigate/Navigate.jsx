@@ -1,25 +1,25 @@
-import styled from "./Navigate.module.css";
+import "./Navigate.css";
 import React from "react";
-import { BsMenuButtonWideFill   } from "react-icons/bs";
+import { BsMenuButtonWideFill } from "react-icons/bs";
 import { BsFillBasketFill   } from "react-icons/bs";
-import img from "../../images/raad.png"
+import img from "../../assets/raad.png"
 
 
 function Navigate (){
     return(
         
-        <div className="container">
+        <div className="container head">
             <header>
-                <div className={styled.menu}>
-                <BsMenuButtonWideFill />
+                <div className="menus">
+                <BsMenuButtonWideFill  className="menu"/>
                 </div>
 
-                <div className={styled.logo}>
+                <div className="logo">
                     <img src={img} alt="logo"/>
                 </div>
 
-                <div className={styled.cart}>
-                    <BsFillBasketFill/>
+                <div className="cart">
+                    <BsFillBasketFill className="cart"/>
                 </div>
 
                 

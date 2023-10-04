@@ -11,7 +11,7 @@ function Products() {
 
 
             <Navigate />
-            <div className="list_pro_container">
+            <div className={styled.list_pro_container}>
                 <div className="container">
                     <Lists/>
                     <div className="row mt-4 pb-4">
