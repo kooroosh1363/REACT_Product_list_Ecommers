@@ -1,0 +1,40 @@
+.navbar{
+    height: 10vh;
+    line-height: 10vh;
+}
+
+.navbar .container{
+    padding: 0.938rem;
+}
+
+.navbar ul li{
+    margin-left: 1.875rem;
+}
+
+.navbar ul li a{
+    font-size: 1rem;
+    transition: 0.5s;
+    font-weight: 700;
+    letter-spacing: 0.063rem;
+}
+
+.navbar ul li a:hover{
+    color: hsla(328, 100%, 50%, 1);
+}
+
+.btn_h{
+    padding: 1.125rem 1.625rem;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    height: fit-content;
+    color: hsla(328, 100%, 50%, 1);
+    font-size: 1rem;
+
+}
+
+
+.btn_h{
+    background: linear-gradient(145deg, hsla(204, 21%, 67%, 1), rgb(228, 203, 231));
+    box-shadow: 0.313rem 0.313rem 0.5rem hsla(0, 0%, 80%, 1), 0.25rem  -0.25rem  0.5rem rgb(172, 110, 179);
+}
