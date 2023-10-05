@@ -16,6 +16,7 @@
     transition: 0.5s;
     font-weight: 700;
     letter-spacing: 0.063rem;
+    color: rgb(58, 122, 200);
 }
 
 .navbar ul li a:hover{
