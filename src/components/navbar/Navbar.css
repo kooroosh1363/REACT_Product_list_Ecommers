@@ -2,8 +2,8 @@
     height: 14vh;
     line-height: 10vh;
     background-color: hsla(0, 0%, 11%, 0.15);
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 
@@ -129,13 +129,14 @@
     .logo img{
         width: 15%;
     }
+
 }
 /* menu for under 768px */
-
-
-
-/* demo-s */
 .demo{
     height: 200vh;
 }
+
+
+/* demo-s */
+
 /* demo-e */

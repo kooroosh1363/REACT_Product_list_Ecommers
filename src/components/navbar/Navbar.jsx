@@ -54,10 +54,11 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
+                <section className="demo"></section>
             </nav >
 
 
-            <section className="demo"></section>
+            
         </>
     )
 }

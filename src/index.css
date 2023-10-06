@@ -16,7 +16,7 @@ html{
 body {
   
   font-family: 'Gabarito', cursive ,'Open Sans', sans-serif;
-  background-color: hsla(68, 49%, 79%, 1);
+  background-color: rgb(255, 255, 255);
 }
 
 .container{
