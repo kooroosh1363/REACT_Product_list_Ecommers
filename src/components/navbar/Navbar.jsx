@@ -20,8 +20,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar">
-                <div className="container dis_flex">
+            <nav className="navbar ">
+                <div className="container dis_flex ">
 
                     <div className="logo">
                         <img src={logo} alt="" />

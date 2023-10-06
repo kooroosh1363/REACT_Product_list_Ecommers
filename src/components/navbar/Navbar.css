@@ -1,10 +1,16 @@
 .navbar{
-    height: 10vh;
+    height: 14vh;
     line-height: 10vh;
+    background-color: hsla(0, 0%, 11%, 0.15);
+    position: sticky;
+    top: 0;
 }
 
+
+
 .navbar .container{
-    padding: 0.938rem;
+    padding: 0.8rem;
+    
 }
 
 .navbar ul li{
@@ -19,17 +25,22 @@
     color: rgb(58, 122, 200);
 }
 
+
+
 .navbar ul li a:hover{
     color: hsla(328, 100%, 50%, 1);
 }
 
-.logo{
+/* .logo{
+    display: flex;
+    align-items: center;
 
-}
+} */
 
 
 .logo img{
-    width: 30%;
+    width: 20%;
+    cursor:pointer;
 }
 /* ////////////////////////////////////// */
 
@@ -66,6 +77,9 @@
 
 
 @media (max-width: 768px) {
+    .navbar{
+        height: 13vh;
+    }
     .navbar ul{
         padding-top: 30px;
     }
@@ -112,8 +126,12 @@
     .navbar.active{
         height: 10vh;
     }
+    .logo img{
+        width: 15%;
+    }
 }
 /* menu for under 768px */
+
 
 
 /* demo-s */

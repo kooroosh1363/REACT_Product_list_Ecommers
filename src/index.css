@@ -27,10 +27,12 @@ body {
 .dis_flex{
   display: flex;
   justify-content: space-between;
+  /* align-items: center !important; */
 }
 
 .f_flex{
   display: flex;
+  
 }
 
 .uppercase{
