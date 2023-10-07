@@ -44,13 +44,13 @@ const Home = () => {
                 <h4>You Can Fine Me :</h4>
                 <div className="button">
                   <button className='btn_shadow'>
-                    <FaFacebook />
+                    <FaFacebook className='icon'/>
                   </button>
                   <button className='btn_shadow'>
-                    <FaLinkedin />
+                    <FaLinkedin className='icon'/>
                   </button>
                   <button className='btn_shadow'>
-                    <FaInstagram />
+                    <FaInstagram className='icon '/>
                   </button>
                 </div>
               </div>
