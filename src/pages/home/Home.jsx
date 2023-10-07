@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 // import { Nav } from 'react-bootstrap'
-import Navbar from '../../components/navbar/Navbar'
+// import Navbar from '../../components/navbar/Navbar'
 import { Typewriter } from 'react-simple-typewriter'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
