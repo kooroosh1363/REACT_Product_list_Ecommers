@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 // import { Nav } from 'react-bootstrap'
-import Navbar from '../../components/navbar/Navbar'
+// import Navbar from '../../components/navbar/Navbar'
 import { Typewriter } from 'react-simple-typewriter'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -44,13 +44,13 @@ const Home = () => {
                 <h4>You Can Fine Me :</h4>
                 <div className="button">
                   <button className='btn_shadow'>
-                    <FaFacebook />
+                    <FaFacebook className='icon'/>
                   </button>
                   <button className='btn_shadow'>
-                    <FaLinkedin />
+                    <FaLinkedin className='icon'/>
                   </button>
                   <button className='btn_shadow'>
-                    <FaInstagram />
+                    <FaInstagram className='icon '/>
                   </button>
                 </div>
               </div>
