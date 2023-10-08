@@ -86,4 +86,43 @@ button{
 }
 
 
+.heading{
+  margin: 3.125rem 0 3.125rem 0;
+}
+
+.heading h4{
+  color: hsla(328, 100%, 50%, 1);
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+
+.heading h1{
+  font-size: 60px;
+  color: hsla(206, 23%, 25%, 1); 
+}
+
+h1{
+  color: hsla(206, 23%, 25%, 1); 
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:35px;
+}
+
+p{
+  color: hsla(206, 23%, 25%, 1) ;
+}
+
+.text_center{
+  text-align: center;
+}
+
+
+
+
+
+
 
